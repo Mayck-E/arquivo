@@ -1,0 +1,24 @@
+.anima{
+    overflow: hidden;
+}
+
+.circulo{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: chocolate;
+    margin: auto;
+    animation-name: animation;  
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    animation-delay: 2s;
+}
+
+@keyframes animation{
+    
+    to{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 0rem;
+    }
+}

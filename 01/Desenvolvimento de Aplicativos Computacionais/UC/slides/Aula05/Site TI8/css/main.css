@@ -1,0 +1,494 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;	
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* Page Wrapper */
+
+#page-wrapper > section {
+    margin-bottom: 0;
+}
+
+.active{
+	background-color: black;
+	color: white;
+	padding: .5rem;
+	border-radius: 10%;	
+}
+
+
+nav a{	
+	font-size: 1.3rem;
+	margin-left: .5rem;	
+}
+
+nav {
+	text-align: center;
+}
+
+/* Header - logo */
+
+h1 {    
+    text-align: center;
+    padding: 3rem;
+	font-weight: 900;
+    font-size: 2.5em;
+	color: #252122;
+}	
+
+		/* Banner */
+
+	#banner {
+		background: #CCE8F4 url("../images/imgbanner.jpg");
+		background-position: center center;		
+		background-repeat: no-repeat;
+		text-align: center;		
+		padding: 8em 0;
+		margin: 4em 0 0 0;
+		
+	}
+
+		#banner header {
+			background-color: rgba(34, 30, 31, 0.98);
+			display: inline-block;
+			padding: 2.5em 5em;
+			border-radius: 5px;
+		}
+
+			#banner header h2 {
+				color: #fff;
+				font-weight: 700;
+				font-size: 2.5em;
+				margin: 0 0 0.65em 0;
+			}
+
+	/* Body */
+	.titulo p{
+		margin-top: 2rem;
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	.d1 {
+		float: left;
+		width: 33%;
+		margin-left: .8rem;	
+	}
+
+	.d2  {
+		float: right;
+		width: 33%;			
+		
+	}
+
+	.d3  {
+		float: right;
+		width: 33%;		
+		
+	}
+
+	.d1 h2{
+		padding-top: 2rem;
+		text-align: center;
+	
+	}
+	
+	.d2 h2{
+		padding-top: 2rem;
+		text-align: center;
+	}
+
+	.d3 h2{
+		padding-top: 2rem;
+		text-align: center;
+	}
+	
+	.d1 img{
+		margin-top: 2rem;
+		width: 70%;	
+		border-radius: 5%;	
+		padding-left: 4rem;	
+		align-items: center;			
+	}
+
+	.d2 img{
+		margin-top: 2rem;
+		width: 70%;	
+		border-radius: 5%;	
+		align-items: center;
+		padding-left: 4rem;					
+	}					
+	
+
+	.d3 img{
+		margin-top: 2rem;
+		width: 70%;	
+		border-radius: 5%;
+		align-items: center;
+		padding-left: 4rem;				
+	}								
+	
+
+	/* Footer */	
+	
+	.cabheader {		
+		font-size: 1.5rem;	
+		text-align: center;				
+		background-color: #252122;
+		color:green;
+		margin-top: 22rem;
+		padding: 1rem;
+			
+	}	
+
+	.cabheader p{
+		font-size: 2rem;			
+	}
+
+	.cabheader span{
+		font-size: 1rem;
+		text-align: center;
+		
+	}
+
+	.fa-brands{
+		font-size: 3rem;		
+	}
+
+	
+
+	/* Pagina Games  - Cards */
+
+	.games{
+		margin-top: 5rem;
+		background-color:black;		
+	}	
+
+	.games p{
+		color:white;
+		font-size: 4rem;
+		padding-top: 2rem;
+		text-align: center;
+	}
+	
+	.row {
+		display: flex;
+		justify-content: center;
+		align-items: center;		
+	  }
+
+	  .card {
+		border-radius: 5px;
+		box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+		padding: 30px;
+		margin: 20px;
+		width: 400px;
+		transition: all 0.3s ease-out;
+		background-color: #CCE8F4;
+		
+		
+	  }
+
+	  .card:hover {
+		transform: translateY(-5px);
+		cursor: pointer;
+	  }
+	   
+	  .card p {
+		color: #a3a5ae;
+		font-size: 16px;		
+	  }
+	   
+	  .image {
+		margin-top: 5px;  
+		margin-left: 3.2rem;
+		max-width: 15rem;
+		max-height: 15rem;
+		border-radius: 3%;
+	  }
+
+	  .blue {
+		border-left: 3px solid #4895ff;
+		
+	  }
+	   
+	  .green {
+		border-left: 3px solid #3bb54a;
+	  }
+
+	  .green h2{
+		  text-align: center;
+	  }
+
+	  .blue h2{
+		text-align: center;
+	  }
+	  .cards {
+		  margin-bottom: -20rem;
+	  }	  
+
+	  /* Pagina Consoles  - Cards */
+
+	  .red{
+		border-left: 3px solid #fc3807;		
+	  }
+
+	  .cardconsoles{
+		  margin-bottom: -20rem;
+	  }
+
+	  /* Pagina Fale Conosco */
+
+	  nav{
+		  margin-bottom: 5rem;
+	  }
+
+      .contato{		  
+	     background-color:black;
+		 margin-bottom: 3rem;
+	  }
+
+	  .contato h1{
+		  text-align: center;
+		  font-size: 4rem;
+		  color:white;
+	  }
+
+	  .nome{
+		  margin-left: 10rem;
+		  font-size: 1rem;
+		  font-weight: bold;
+	  }
+
+	  .lblnome{
+		margin-left: 10rem;
+		font-size: 1rem;
+		width: 80%;
+	  }
+
+	  .cel{
+		margin-left: 10rem;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.lblcel{
+	  margin-left: 10rem;
+	  font-size: 1rem;
+	  width: 80%;
+	}
+
+	.email{
+		margin-left: 10rem;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.lblemail{
+	  margin-left: 10rem;
+	  font-size: 1rem;
+	  width: 80%;
+	}
+
+	.assunto{
+		margin-left: 10rem;
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.textoassunto{
+	  margin-left: 10rem;
+	  font-size: 1rem;
+	  width: 80%;
+	}
+
+	.botao{
+		font-size: 1rem;
+		width: 6rem;
+		height: 3rem;
+		margin-left: 10rem;
+		margin-bottom: 2rem;
+		background-color:#CCE8F4;
+	}
+
+	.faleconosco{
+		margin-bottom: -20rem;
+	}
+
+	
+	  
+	  /* Responsividade */
+
+	  /* a dimensão minima para não aparecer o menu responsivo é 721*/
+	  @media (min-width: 721px){
+		  .menu {
+			  display: none;
+		  }
+	  }
+	  
+	  /* de 720 para baixo  aparece o menu responsivo */
+	  @media (max-width: 720px) {
+		#banner{
+			font-size: 0.5rem;
+		}		
+						
+		.cabheader{
+			font-size: 1.5rem;
+			margin-top: 40rem;
+		}
+
+		.cabheader p{
+			font-size: .9rem;
+		}
+
+		.d1 {
+			float: left;
+			width: 60%;
+	        margin-left: 3rem;
+		}
+
+		.d2 {
+			float: left;
+			width: 60%;
+			margin-left: 3rem;	            
+		}
+
+		.d3 {
+			float: left;
+			width: 60%;
+			margin-left: 3rem;
+		}
+		
+		.d1 h2{
+			margin-left: 3rem;
+		}
+
+		.d2 h2{
+			margin-left: 3rem;
+		}
+
+		.d3 h2{
+			margin-left: 3rem;		
+		}		
+
+		nav {
+		  display: none;		  
+		}	
+				  
+		 .menu {	      	 
+		  font-size: 1.5rem;		  		  
+		  color:black;	
+		  display: flex;
+		  justify-content: center;
+		}
+	  
+		 .menu.open {
+		  position: fixed;
+		  z-index: 2;	
+		  margin-left: 2rem;    
+		  
+		}
+	  
+		 .menu.open + nav {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: center;
+		  position: fixed;
+		  width: 100%;
+		  height: 80%;
+		  top: 0;
+		  left: 0;
+		  background: rgba(255, 255, 255, .9);
+		  font-size: 1.2rem;
+		  line-height: 1.5rem;
+		}  
+
+
+		/* games */
+
+		.card{
+						
+			display: block;
+			width: 145%;			
+		}
+
+		.row{
+			display: block;
+			width: 50%;			
+		}
+
+		.image{
+			margin-left: 0.6rem;
+		}
+
+		.cards{
+			margin-bottom: -40rem;
+		}
+
+		/* consoles */
+
+		.card{
+						
+			display: block;
+			width: 145%;			
+		}
+
+		.row{
+			display: block;
+			width: 50%;			
+		}
+
+		.image{
+			margin-left: 0.6rem;
+		}
+
+		.cardconsoles{
+			margin-bottom: -40rem;
+		}
+		
+		/* Fale Conosco */
+		.faleconosco{
+			margin-top: 2rem;
+			margin-bottom: -40rem;
+		}
+
+		.contato h1{
+			font-size: 2rem;
+		}
+
+		.lblnome{
+			width: 70%;
+			margin-left: 3.5rem;
+		}
+
+		.lblcel{
+			width: 70%;
+			margin-left: 3.5rem;
+		}
+
+		.lblemail{
+			width: 70%;
+			margin-left: 3.5rem;
+		}
+
+		.textoassunto{
+			width: 70%;			
+			margin-left: 3.5rem;					
+		}
+
+		
+	}
+

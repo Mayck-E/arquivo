@@ -1,0 +1,23 @@
+.animatext p{
+    text-align: center;
+    color: blueviolet;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.animatext{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: action;
+
+}
+
+@keyframes action{
+    from{
+        opacity: 100%;
+    }
+
+    to{
+        opacity: 18%;
+    }
+}

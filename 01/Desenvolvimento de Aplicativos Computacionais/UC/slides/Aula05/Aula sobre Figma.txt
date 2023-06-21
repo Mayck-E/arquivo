@@ -1,0 +1,13 @@
+https://flatcolors.net/ -> palheta de cores
+https://fonts.google.com/ -> fontes
+https://worldvectorlogo.com/ -> logotipos
+https://unsplash.com/ -> fotos sem direitos autorais
+
+
+##### PLUGINS #####
+REMOVEBG
+UNSPLASH
+
+
+ctrl + g = agrupar
+alt + click = duplicar

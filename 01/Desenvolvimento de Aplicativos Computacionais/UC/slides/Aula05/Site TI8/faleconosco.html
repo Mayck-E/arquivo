@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>GameMania - Consoles</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./css/main.css">
+		<link href="./fontawesome/css/all.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page-wrapper">	
+				
+			<!-- Header - Logo -->
+			<h1><a href="index.html">GameMania</a></h1>
+			<br /><br /><br />
+
+
+			<a href="#" class="menu">
+			   <i class="fa fa-bars"></i>
+			</a>
+								
+			<!-- Header - Nav -->
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="games.html">Games</a>
+				<a href="consoles.html">Consoles</a>
+				<a href="faleconosco.html" class="active">Fale Conosco</a>					
+			  </nav>				    			
+		
+              <div class="faleconosco">
+				<form class="contato">  
+					<br /> 
+					<h1>Fale Conosco</h1>   
+					<br /><br /><br />
+        
+					<label class="nome" for="nome">Nome</label><br>
+					<input class="lblnome" name="nome" id="nome"
+					  placeholder="Digite o nome completo" />
+				   <br><br>
+				  
+					<label class="cel" for="tel">Celular</label><br>
+					<input class="lblcel" name="cel" id="cel"  placeholder="(99) 99999-9999" />
+				   <br><br>
+				  
+					<label class="email" for="email">Email</label><br>
+					<input class="lblemail" name="email" id="email" 
+					  placeholder="Digite o endereço de e-mail" />
+				   <br><br>
+				  <label class="assunto">Assunto</label> <br>
+					<textarea class="textoassunto"  name="q_obs" id="q_obs" placeholder="Digite o assunto desejado" cols="65" rows="15"></textarea>
+				  <br><br>
+			
+				  <input  class="botao" type="submit" value="Enviar" />       
+			
+				
+				
+				</form>
+
+			</div>
+
+			<!-- Footer -->
+				<!-- Footer -->				
+				<div class="cabheader">
+					<p>Redes Sociais</p>						
+					<br />
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					<br /><br /><br />
+					<span>Direitos Reservados - Turma 8 Técnico em Informática</span>					   
+				 </div>		
+				
+		</div>	
+		<script>
+			const menu = document.querySelector('.menu');
+			menu.addEventListener('click', function() {
+			  this.classList.toggle('open');
+			});
+		  </script>
+
+
+	</body>
+</html>

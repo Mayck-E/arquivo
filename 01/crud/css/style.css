@@ -1,0 +1,29 @@
+/* página cadastrar  */
+
+h1{
+    text-align: center;
+    }
+    
+    .lbl{
+        margin-left: 5rem;
+    }
+    .btn{
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    /* página editar  */
+
+h1{
+    text-align: center;
+    }
+    
+    .lble{
+        margin-left: 5rem;
+    }
+    .btn{
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    

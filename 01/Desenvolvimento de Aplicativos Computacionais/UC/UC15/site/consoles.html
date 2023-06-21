@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./fontawesome-free-6.2.1-web/css/all.css" rel="stylesheet">
+    <title>GameMania - Games</title>
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <!--Header-->
+        <section id="header">
+            <!--Logo-->
+            <h1><a href="index.html">GAME MANIA</a></h1>
+            <br><br><br>
+
+            <a href="#" class="menu">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <!--Nav-->
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="games.html" >Games</a>
+                <a href="consoles.html" class="active">Consoles</a>
+                <a href="faleconosco.html">Fale Conosco</a>
+            </nav>
+
+            <div class="games">
+                <p>Consoles</p>
+                <div class="row">
+                    <div class="card red">
+                        <h2>XBOX séries X</h2>
+                        <img class="image" src="./images/consoles/xboxseriex.jpg" alt="XBOX">
+                        <p>
+                            O design elegante e monolítico do Xbox Series X é o resultado da combinação de inovações de hardware e software com engenharia intencional para atingir o auge da velocidade e do desempenho.
+                        <br>
+                        
+                            O Xbox Series X oferece taxas de quadro extraordinariamente estáveis de até 120 FPS com o pop visual de HDR. Mergulhe em personagens mais nítidos, mundos mais brilhantes e detalhes incríveis com o realismo do 4K.</p>
+                        
+                    </div>
+
+                    <div class="card red">
+                        <h2>XBOX séries X</h2>
+                        <img class="image" src="./images/consoles/xboxseriex.jpg" alt="XBOX">
+                        <p>
+                            O design elegante e monolítico do Xbox Series X é o resultado da combinação de inovações de hardware e software com engenharia intencional para atingir o auge da velocidade e do desempenho.
+                        <br>
+                        O Xbox Series X oferece taxas de quadro extraordinariamente estáveis de até 120 FPS com o pop visual de HDR. Mergulhe em personagens mais nítidos, mundos mais brilhantes e detalhes incríveis com o realismo do 4K.                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--Footer-->
+        <div class="cabheader">
+            <p>Redes Sociais</p>
+            <br>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <br><br><br>
+            <span>Direitos Reservados - Turma 7 Técnico em Innformática</span>
+
+        </div>
+    </div>
+
+    <script>
+        const menu = document.querySelector('.menu');
+        menu.addEventListener('click', function () {
+            this.classList.toggle('open');
+        });
+    </script>
+
+</body>
+
+</html>
